@@ -14,7 +14,11 @@
     "standard": "^5.4.1"
   },
   "dependencies": {
+    "concat-stream": "^1.5.1",
     "js-yaml": "^3.4.6",
-    "minimist": "^1.2.0"
+    "mime-types": "^2.1.8",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "sanitize-filename": "^1.5.3"
   }
 }

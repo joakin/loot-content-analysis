@@ -6,6 +6,7 @@
   "scripts": {
     "test": "standard"
   },
+  "bin": ".bin/loot-content-analysis",
   "keywords": [],
   "author": "Joaquin Oltra <joaquin@chimeces.com> (http://chimeces.com)",
   "license": "MIT",

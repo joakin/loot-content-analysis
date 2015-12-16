@@ -1,3 +1,83 @@
 #!/usr/bin/env node
 
-console.log('Loot content analysis')
+const yaml = require('js-yaml')
+const fs = require('fs')
+const path = require('path')
+
+const argv = require('minimist')(process.argv.slice(2))
+
+function init () {
+  if (argv.c && argv.d) {
+    Promise.all([getConfig(argv.c), getDirectory(argv.d)])
+      .then((res) => {
+        const config = res[0]
+        const dir = res[1]
+        console.dir([config, dir], { depth: null })
+      })
+      .catch((err) => { console.log(`[Error] ${err.message}`); process.exit(1) })
+  } else if (argv.h || argv.v || argv._.length === 0) {
+    help()
+    process.exit(0)
+  } else {
+    console.error('[Error] Unrecognized parameters')
+    help()
+    process.exit(1)
+  }
+}
+
+function help () {
+  console.log(`
+  loot-content-analysis [-c ./config.yml] -d [output/]
+
+    Fetches a list of pages in the config file from loot endpoints, saves them
+    in the output directory with stats.
+
+    -c Configuration file
+    -d Output folder. Fetched assets will be stored there
+    [-h|-v] Usage & help
+
+    Example config.yml:
+
+${sampleConfig}
+`)
+}
+
+// String -> Promise(Object)
+function getConfig (path) {
+  return new Promise((resolve, reject) => {
+    fs.readFile(path, 'utf8', (err, contents) =>
+      err ? reject(err) : resolve(contents))
+  })
+  .then((contents) => yaml.safeLoad(contents))
+  .then((config) => validateConfig(config))
+}
+
+// String -> Promise(String)
+function getDirectory (dirPath) {
+  return new Promise((resolve, reject) => {
+    fs.stat(dirPath, (err, stats) =>
+      err ? reject(err) : resolve(stats))
+  }).then((stats) =>
+    stats.isDirectory() ? path.resolve(dirPath)
+      : new Error('Output folder is not a folder'))
+}
+
+function validateConfig (config) {
+  if (!config) throw new Error('Configuration can\'t be empty')
+  if (!config.pages) {
+    throw new Error(
+`No 'pages' found in the configuration. Example configuration:
+${sampleConfig}`
+    )
+  }
+  return config
+}
+
+const sampleConfig = `
+      pages:
+        - Cat
+        - Dog
+        - Wikipedia
+`
+
+init(argv)

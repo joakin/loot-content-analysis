@@ -12,5 +12,9 @@
   "license": "MIT",
   "devDependencies": {
     "standard": "^5.4.1"
+  },
+  "dependencies": {
+    "js-yaml": "^3.4.6",
+    "minimist": "^1.2.0"
   }
 }

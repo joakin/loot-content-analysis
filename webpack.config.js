@@ -8,14 +8,7 @@ var config = getConfig({
   // commonly named `www` or `public`. This
   // is where your fully static site should
   // end up for simple deployment.
-  out: 'examples',
-
-  // This will destroy and re-create your
-  // `out` folder before building so you always
-  // get a fresh folder. Usually you want this
-  // but since it's destructive we make it
-  // false by default
-  clearBeforeBuild: true
+  out: 'examples'
 })
 
 module.exports = config

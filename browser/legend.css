@@ -1,0 +1,27 @@
+.Legend { text-align: center; }
+.Legend>span {
+  margin: 0 1em;
+}
+.Legend-marker {
+  display: inline-block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+.ct-bg-1 { background-color: #d70206; }
+.ct-bg-2 { background-color: #f05b4f; }
+.ct-bg-3 { background-color: #f4c63d; }
+.ct-bg-4 { background-color: #d17905; }
+.ct-bg-5 { background-color: #453d3f; }
+.ct-bg-6 { background-color: #59922b; }
+.ct-bg-7 { background-color: #0544d3; }
+.ct-bg-8 { background-color: #6b0392; }
+.ct-bg-9 { background-color: #f05b4f; }
+.ct-bg-10 { background-color: #dda458; }
+.ct-bg-11 { background-color: #eacf7d; }
+.ct-bg-12 { background-color: #86797d; }
+.ct-bg-13 { background-color: #b2c326; }
+.ct-bg-14 { background-color: #6188e2; }
+.ct-bg-15 { background-color: #a748ca; }

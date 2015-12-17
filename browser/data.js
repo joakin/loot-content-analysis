@@ -4,7 +4,7 @@ import filesize from 'filesize'
 import './data.css'
 
 export default ({title, entries}) => (
-  <div className='Data-entry'>
+  <div className='Data'>
     <table>
       <caption>{title}</caption>
       <thead>

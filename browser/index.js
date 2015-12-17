@@ -3,9 +3,11 @@ import React from 'react'
 import { render } from 'react-dom'
 import fetch from 'isomorphic-fetch'
 import filesize from 'filesize'
-import {groupBy, map, keys, get, find} from 'lodash'
-import Data from './data'
+import {groupBy, map, keys, get, find, filter} from 'lodash'
+import PageReport from './page-report'
 import Chart from './chart'
+import Legend from './legend'
+import endpointforBarChart from './endpoint-for-barchart'
 
 import './index.css'
 
@@ -14,7 +16,7 @@ fetch('./output/stats.json')
     if (resp.status >= 400) throw new Error('Bad response from server')
     return resp.json()
   })
-  .then(init)
+  .then((contents) => setTimeout(() => init(contents), 0))
   .catch((e) => console.log(e))
 
 function init (stats) {
@@ -24,7 +26,7 @@ function init (stats) {
 
   const barChartData = {
     labels: pages,
-    series: map(byEndpoint, (es, endpoint) =>
+    series: map(filter(byEndpoint, (es, endpoint) => endpointforBarChart(endpoint)), (es) =>
       pages.map((page) => get(find(es, (e) => e.title === page), 'size')))
   }
   const barChartOptions = {
@@ -44,12 +46,13 @@ function init (stats) {
   render(
     <div className='Report'>
       <h1>Pages size report</h1>
-      <h2>Data</h2>
-      <div className='Data'>
-        {map(byTitle, (es, t) => <Data key={`data-${t}`} title={t} entries={es}/>)}
-      </div>
       <h2>All pages & endpoints</h2>
+      <Legend reverse={barChartOptions.reverseData} labels={filter(keys(byEndpoint), endpointforBarChart)}/>
       <Chart data={barChartData} options={barChartOptions} type={'Bar'} />
+      <h2>Per page</h2>
+      <div className='PageReports'>
+        {map(byTitle, (es, t) => <PageReport title={t} entries={es} key={`report-${t}`}/>)}
+      </div>
     </div>,
     document.getElementById('root')
   )

@@ -1,12 +1,13 @@
 import 'babel-polyfill'
-
 import React from 'react'
 import { render } from 'react-dom'
 import fetch from 'isomorphic-fetch'
+import filesize from 'filesize'
+import {groupBy, map, keys, get, find} from 'lodash'
+import Data from './data'
+import Chart from './chart'
 
 import './index.css'
-
-import Chart from './chart'
 
 fetch('./output/stats.json')
   .then((resp) => {
@@ -15,10 +16,6 @@ fetch('./output/stats.json')
   })
   .then(init)
   .catch((e) => console.log(e))
-
-import filesize from 'filesize'
-import {groupBy, map, keys, get, find} from 'lodash'
-import Data from './data'
 
 function init (stats) {
   const byTitle = groupBy(stats, 'title')

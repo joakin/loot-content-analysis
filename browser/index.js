@@ -37,7 +37,7 @@ function init (stats) {
       scaleMinSpace: 130
     },
     axisX: {
-      labelInterpolationFnc: (b) => filesize(b, {round: 0})
+      labelInterpolationFnc: (b) => filesize(b, {round: b > 1000000 ? 2 : 0})
     }
   }
 

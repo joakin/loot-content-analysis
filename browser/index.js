@@ -16,43 +16,6 @@ fetch('./output/stats.json')
   .then(init)
   .catch((e) => console.log(e))
 
-// var data = {
-//   labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-//   series: [20, 10, 30, 40, 50]
-// }
-
-// var options = {
-//   labelInterpolationFnc: (label, i) =>
-//     label + ' (' + (data.series[i] / data.series.reduce((a, b) => a + b) * 100).toFixed(2) + '%)',
-//   height: '350px',
-//   donut: true,
-//   donutWidth: 60,
-//   labelOffset: 30,
-//   labelPosition: 'outside',
-//   startAngle: 270,
-//   showLabel: true
-// }
-
-// var data2 = {
-//   labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-//   series: [
-//     [5, 4, 3, 7, 5, 10, 3],
-//     [3, 2, 9, 5, 4, 6, 4]
-//   ]
-// }
-// var options2 = {
-//   height: `${data.labels.length * 80}px`,
-//   seriesBarDistance: 10,
-//   horizontalBars: true,
-//   reverseData: true,
-//   axisY: {
-//     offset: 100,
-//     scaleMinSpace: 130
-//   }
-// }
-      // <Chart data={data} options={options} type={'Pie'} />
-      // <Chart data={data2} options={options2} type={'Bar'} />
-
 import filesize from 'filesize'
 import {groupBy, map, keys, get, find} from 'lodash'
 import Data from './data'

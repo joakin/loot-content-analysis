@@ -1,0 +1,21 @@
+.Data-entry { margin: 0.5em 1em; }
+.Data-entry table {
+  margin: auto;
+  border: 3px solid #f0f0f0;
+}
+.Data-entry table caption {
+  font-weight: bold;
+  font-family: serif;
+  font-size: 1.3em;
+  padding: 0.3em 0.5em;
+}
+.Data-entry table thead { text-align: center; }
+.Data-entry table td, .Data-entry table th {
+  padding: 0.2em 0.3em;
+}
+.Data-entry table tbody td {
+  border-top: 1px solid #f0f0f0;
+}
+.Data-entry table tbody td:nth-child(2) {
+  text-align: right;
+}

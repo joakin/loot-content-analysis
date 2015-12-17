@@ -1,0 +1,19 @@
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-family: serif;
+  margin-bottom: 0.5em;
+}
+
+.Report {
+  max-width: 100ex;
+  margin: auto;
+  padding: 0 1em 3em 1em;
+}
+
+.Data { text-align: center; }
+.Data .Data-entry { display: inline-block; text-align: left; }

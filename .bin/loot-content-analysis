@@ -10,6 +10,16 @@ const fetchPages = require('../lib/fetch-pages')
 const fetchStats = require('../lib/fetch-stats')
 const writeStats = require('../lib/write-stats')
 
+
+const BASE_URL = process.env.SERVER || 'http://reading-web-research.wmflabs.org'
+const endpoints = {
+  slim: (title) => `wiki/${title}?full`,
+  'slim-lead': (title) => `wiki/${title}`,
+  'mobileview': (title) => `api/benchmarks/mobileview/${title}`,
+  'wikipedia': (title) => `api/benchmarks/wikipedia/${title}`,
+  'restbase': (title) => `api/benchmarks/restbase/${title}`
+}
+
 function init () {
   if (argv.c && argv.d) {
     Promise.all([getConfig(argv.c), getDirectory(argv.d)])
@@ -58,6 +68,7 @@ function getConfig (path) {
   })
   .then((contents) => yaml.safeLoad(contents))
   .then((config) => validateConfig(config))
+  .then((config) => addExtraInfo(config))
 }
 
 // String -> Promise(String)
@@ -79,6 +90,13 @@ ${sampleConfig}`
     )
   }
   return config
+}
+
+function addExtraInfo (config) {
+  return Object.assign({}, config, {
+    server: BASE_URL,
+    endpoints: endpoints
+  })
 }
 
 const sampleConfig = `

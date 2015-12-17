@@ -8,7 +8,13 @@ var config = getConfig({
   // commonly named `www` or `public`. This
   // is where your fully static site should
   // end up for simple deployment.
-  out: 'examples'
+  out: 'examples',
+  html: (context) => ({
+    'index.html': context.defaultTemplate({
+      title: 'Loot content analysis',
+      publicPath: './'
+    })
+  })
 })
 
 module.exports = config

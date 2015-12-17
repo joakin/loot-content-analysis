@@ -1,45 +1,75 @@
 [
   {
-    "title": "Facebook",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Facebook/slim.html",
+    "title": "Nike, Inc.",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./slim.html",
     "endpoint": "slim",
-    "size": 1539536
+    "size": 376432
   },
   {
-    "title": "Facebook",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Facebook/slim-lead.html",
+    "title": "Nike, Inc.",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./slim-lead.html",
     "endpoint": "slim-lead",
-    "size": 44650
+    "size": 34739
   },
   {
-    "title": "Facebook",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Facebook/mobileview.html",
+    "title": "Nike, Inc.",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./mobileview.html",
     "endpoint": "mobileview",
-    "size": 681018
+    "size": 163982
   },
   {
-    "title": "Facebook",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Facebook/wikipedia.html",
+    "title": "Nike, Inc.",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./wikipedia.html",
     "endpoint": "wikipedia",
-    "size": 692931
+    "size": 170909
   },
   {
-    "title": "Facebook",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Facebook/restbase.html",
+    "title": "Nike, Inc.",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./restbase.html",
     "endpoint": "restbase",
-    "size": 1062876
+    "size": 249724
+  },
+  {
+    "title": "Star Wars: The Force Awakens",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/slim.html",
+    "endpoint": "slim",
+    "size": 1036187
+  },
+  {
+    "title": "Star Wars: The Force Awakens",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/slim-lead.html",
+    "endpoint": "slim-lead",
+    "size": 33549
+  },
+  {
+    "title": "Star Wars: The Force Awakens",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/mobileview.html",
+    "endpoint": "mobileview",
+    "size": 449948
+  },
+  {
+    "title": "Star Wars: The Force Awakens",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/wikipedia.html",
+    "endpoint": "wikipedia",
+    "size": 455959
+  },
+  {
+    "title": "Star Wars: The Force Awakens",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/restbase.html",
+    "endpoint": "restbase",
+    "size": 746092
   },
   {
     "title": "Barack Obama",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/slim.html",
     "endpoint": "slim",
-    "size": 2033450
+    "size": 2033387
   },
   {
     "title": "Barack Obama",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/slim-lead.html",
     "endpoint": "slim-lead",
-    "size": 77079
+    "size": 77040
   },
   {
     "title": "Barack Obama",
@@ -60,93 +90,183 @@
     "size": 1631659
   },
   {
-    "title": "Cat",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Cat/slim.html",
+    "title": "Doctor Who",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/slim.html",
     "endpoint": "slim",
-    "size": 1202759
+    "size": 1040914
   },
   {
-    "title": "Cat",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Cat/slim-lead.html",
+    "title": "Doctor Who",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/slim-lead.html",
     "endpoint": "slim-lead",
-    "size": 27432
+    "size": 35853
   },
   {
-    "title": "Cat",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Cat/mobileview.html",
+    "title": "Doctor Who",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/mobileview.html",
     "endpoint": "mobileview",
-    "size": 588834
+    "size": 461286
   },
   {
-    "title": "Cat",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Cat/wikipedia.html",
+    "title": "Doctor Who",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/wikipedia.html",
     "endpoint": "wikipedia",
-    "size": 595629
+    "size": 472742
   },
   {
-    "title": "Cat",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Cat/restbase.html",
+    "title": "Doctor Who",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/restbase.html",
     "endpoint": "restbase",
-    "size": 911555
+    "size": 695310
   },
   {
-    "title": "Dog",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Dog/slim.html",
+    "title": "Geastrum quadrifidum",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/slim.html",
     "endpoint": "slim",
-    "size": 891304
+    "size": 239804
   },
   {
-    "title": "Dog",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Dog/slim-lead.html",
+    "title": "Geastrum quadrifidum",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/slim-lead.html",
     "endpoint": "slim-lead",
-    "size": 27883
+    "size": 33730
   },
   {
-    "title": "Dog",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Dog/mobileview.html",
+    "title": "Geastrum quadrifidum",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/mobileview.html",
     "endpoint": "mobileview",
-    "size": 473224
+    "size": 85016
   },
   {
-    "title": "Dog",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Dog/wikipedia.html",
+    "title": "Geastrum quadrifidum",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/wikipedia.html",
     "endpoint": "wikipedia",
-    "size": 483602
+    "size": 88373
   },
   {
-    "title": "Dog",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Dog/restbase.html",
+    "title": "Geastrum quadrifidum",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/restbase.html",
     "endpoint": "restbase",
-    "size": 689639
+    "size": 169026
   },
   {
-    "title": "Wikipedia",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Wikipedia/slim.html",
+    "title": "Syrian Civil War",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/slim.html",
     "endpoint": "slim",
-    "size": 1664645
+    "size": 3429288
   },
   {
-    "title": "Wikipedia",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Wikipedia/slim-lead.html",
+    "title": "Syrian Civil War",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/slim-lead.html",
     "endpoint": "slim-lead",
-    "size": 41531
+    "size": 294990
   },
   {
-    "title": "Wikipedia",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Wikipedia/mobileview.html",
+    "title": "Syrian Civil War",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/mobileview.html",
     "endpoint": "mobileview",
-    "size": 716193
+    "size": 1520218
   },
   {
-    "title": "Wikipedia",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Wikipedia/wikipedia.html",
+    "title": "Syrian Civil War",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/wikipedia.html",
     "endpoint": "wikipedia",
-    "size": 729899
+    "size": 1540339
   },
   {
-    "title": "Wikipedia",
-    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Wikipedia/restbase.html",
+    "title": "Syrian Civil War",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/restbase.html",
     "endpoint": "restbase",
-    "size": 1141759
+    "size": 2342487
+  },
+  {
+    "title": "Oakland",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland/slim.html",
+    "endpoint": "slim",
+    "size": 23
+  },
+  {
+    "title": "Oakland",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland/slim-lead.html",
+    "endpoint": "slim-lead",
+    "size": 23
+  },
+  {
+    "title": "Oakland",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland/mobileview.html",
+    "endpoint": "mobileview",
+    "size": 478894
+  },
+  {
+    "title": "Oakland",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland/wikipedia.html",
+    "endpoint": "wikipedia",
+    "size": 906
+  },
+  {
+    "title": "Oakland",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland/restbase.html",
+    "endpoint": "restbase",
+    "size": 0
+  },
+  {
+    "title": "Campus Honeymoon",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/slim.html",
+    "endpoint": "slim",
+    "size": 36707
+  },
+  {
+    "title": "Campus Honeymoon",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/slim-lead.html",
+    "endpoint": "slim-lead",
+    "size": 15567
+  },
+  {
+    "title": "Campus Honeymoon",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/mobileview.html",
+    "endpoint": "mobileview",
+    "size": 12830
+  },
+  {
+    "title": "Campus Honeymoon",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/wikipedia.html",
+    "endpoint": "wikipedia",
+    "size": 14661
+  },
+  {
+    "title": "Campus Honeymoon",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/restbase.html",
+    "endpoint": "restbase",
+    "size": 19214
+  },
+  {
+    "title": "Brazil",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/slim.html",
+    "endpoint": "slim",
+    "size": 1787582
+  },
+  {
+    "title": "Brazil",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/slim-lead.html",
+    "endpoint": "slim-lead",
+    "size": 83583
+  },
+  {
+    "title": "Brazil",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/mobileview.html",
+    "endpoint": "mobileview",
+    "size": 827244
+  },
+  {
+    "title": "Brazil",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/wikipedia.html",
+    "endpoint": "wikipedia",
+    "size": 837829
+  },
+  {
+    "title": "Brazil",
+    "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/restbase.html",
+    "endpoint": "restbase",
+    "size": 1244831
   }
 ]

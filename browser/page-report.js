@@ -66,6 +66,7 @@ export default ({title, entries}) => {
         <Chart data={barChartData} options={barChartOptions} type={'Bar'} />
       </div>
       <div className='PageReport-restbase'>
+        <h4>Restbase analysis</h4>
         <Chart data={pieData} options={pieOptions} type={'Pie'} />
       </div>
     </div>

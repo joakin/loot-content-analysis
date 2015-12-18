@@ -30,7 +30,7 @@ function init (stats) {
       pages.map((page) => get(find(es, (e) => e.title === page), 'size')))
   }
   const barChartOptions = {
-    height: `${pages.length * (keys(byEndpoint).length * 20)}px`,
+    height: `${pages.length * (keys(byEndpoint).length * 10)}px`,
     seriesBarDistance: 10,
     horizontalBars: true,
     reverseData: true,

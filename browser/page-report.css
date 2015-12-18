@@ -1,5 +1,10 @@
-.PageReport-title { border-bottom: 1px solid #f4f4f4; }
+.PageReport { background-color: #fcfcfc; padding: 1em; }
+.PageReport-title { margin-top: 1em; }
+.PageReport h3 { border-bottom: 1px solid #f4f4f4; }
 .PageReport-restbase { margin-top: 2em; }
+.PageReport-pies { text-align: center; }
+.PageReport-pies > * { vertical-align: top; display: inline-block; margin: 0em 1em; max-width: 300px; }
+.PageReport-pie .Legend { text-align: left; padding: 0 10%; margin-top: 1.0em; }
 @media (min-width: 768px) {
   .PageReport-endpoints { display: flex; align-items: center; }
   .PageReport .Chart { flex: 1; }

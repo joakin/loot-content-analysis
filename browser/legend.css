@@ -1,9 +1,11 @@
-.Legend { text-align: center; }
+.Legend { text-align: center; white-space: normal }
 .Legend>span {
   margin: 0 1em;
+  display: inline-block;
+  overflow: hidden;
 }
 .Legend-marker {
-  display: inline-block;
+  float: left;
   border-radius: 50%;
   width: 20px;
   height: 20px;

@@ -13,11 +13,12 @@ const writeStats = require('../lib/write-stats')
 
 const BASE_URL = process.env.SERVER || 'http://reading-web-research.wmflabs.org'
 const endpoints = {
-  'loot-lead': (title) => `wiki/${title}`,
+  // 'loot-lead': (title) => `wiki/${title}`,
   'loot': (title) => `api/benchmarks/loot/${title}`,
-  'loot-transform-noambox': (title) => `api/benchmarks/loot/${title}?transforms=noambox`,
-  'loot-transform-nonavbox': (title) => `api/benchmarks/loot/${title}?transforms=nonavbox`,
-  'loot-transform-nodatamw': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw`,
+  'loot-nodatamw': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw`,
+  'loot-nodatamw-noreferences': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noreferences`,
+  'loot-nodatamw-nonavbox': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|nonavbox`,
+  'loot-nodatamw-noambox': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noambox`,
   'mobileview': (title) => `api/benchmarks/mobileview/${title}`,
   'wikipedia': (title) => `api/benchmarks/wikipedia/${title}`,
   'restbase': (title) => `api/benchmarks/restbase/${title}`

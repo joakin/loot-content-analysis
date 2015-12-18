@@ -49,7 +49,7 @@ function init (stats) {
       <h2>All pages & endpoints</h2>
       <Legend reverse={barChartOptions.reverseData} labels={filter(keys(byEndpoint), endpointforBarChart)}/>
       <Chart data={barChartData} options={barChartOptions} type={'Bar'} />
-      <h2>Per page</h2>
+      <h1>Per page reports</h1>
       <div className='PageReports'>
         {map(byTitle, (es, t) => <PageReport title={t} entries={es} key={`report-${t}`}/>)}
       </div>

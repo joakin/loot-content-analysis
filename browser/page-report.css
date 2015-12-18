@@ -1,3 +1,4 @@
+.PageReport-title { border-bottom: 1px solid #f4f4f4; }
 .PageReport-restbase { margin-top: 2em; }
 @media (min-width: 768px) {
   .PageReport-endpoints { display: flex; align-items: center; }

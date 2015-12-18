@@ -3,10 +3,10 @@ import filesize from 'filesize'
 
 import './data.css'
 
-export default ({title, entries}) => (
+export default ({title, entries, showCaption}) => (
   <div className='Data'>
     <table>
-      <caption>{title}</caption>
+      {showCaption ? <caption>{title}</caption> : null}
       <thead>
         <tr>
           <th>Endpoint</th>

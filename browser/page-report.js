@@ -60,6 +60,7 @@ export default ({title, entries}) => {
 
   return (
     <div className='PageReport'>
+      <h3 className='PageReport-title'>{title}</h3>
       <div className='PageReport-endpoints'>
         <Data title={title} entries={entries}/>
         <Chart data={barChartData} options={barChartOptions} type={'Bar'} />

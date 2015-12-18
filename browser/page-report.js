@@ -47,13 +47,13 @@ export default ({title, entries}) => {
     total: restbase.size,
     labelInterpolationFnc: (label, i) => (
       label.replace('loot-transform-', '').replace('loot-', '').replace(/^no/, '') +
-      ' (' + (pieData.series[i] / pieData.series.reduce((a, b) => a + b) * 100).toFixed(2) + '%)'
+      ' (' + (pieData.series[i] / restbase.size * 100).toFixed(2) + '%)'
     ),
     height: '350px',
     donut: true,
     donutWidth: 60,
-    labelOffset: 30,
-    labelPosition: 'outside',
+    // labelOffset: 30,
+    // labelPosition: 'outside',
     startAngle: 270,
     showLabel: true
   }

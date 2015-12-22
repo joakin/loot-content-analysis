@@ -15,10 +15,11 @@ const BASE_URL = process.env.SERVER || 'http://reading-web-research.wmflabs.org'
 const endpoints = {
   // 'loot-lead': (title) => `wiki/${title}`,
   'loot': (title) => `api/benchmarks/loot/${title}`,
-  'loot-nodatamw': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw`,
-  'loot-nodatamw-noreferences': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noreferences`,
-  'loot-nodatamw-nonavbox': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|nonavbox`,
-  'loot-nodatamw-noambox': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noambox`,
+  'loot-extraneous-nodata-mw': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw`,
+  'loot-extraneous-noextra': (title) => `api/benchmarks/loot/${title}?transforms=noextra`,
+  'loot-others-noreferences': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noextra|noreferences`,
+  'loot-others-nonavbox': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noextra|nonavbox`,
+  'loot-others-noambox': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noextra|noambox`,
   'mobileview': (title) => `api/benchmarks/mobileview/${title}`,
   'wikipedia': (title) => `api/benchmarks/wikipedia/${title}`,
   'restbase': (title) => `api/benchmarks/restbase/${title}`

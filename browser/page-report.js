@@ -29,27 +29,37 @@ export default ({title, entries}) => {
   }
 
   const restbase = find(entries, 'endpoint', 'restbase')
-  const restbaseNoDataMW = find(entries, 'endpoint', 'loot-nodatamw')
 
-  const endpointForNoDataMW = (e) => e.indexOf('loot-nodatamw-') !== -1
-  const noDataMWEntries = filter(entries, (e) => endpointForNoDataMW(e.endpoint)).map((e) => ({
-    ...e, size: restbaseNoDataMW.size - e.size
-  }))
+  const endpointForExtraneous = (e) => e.indexOf('loot-extraneous-') !== -1
+  const extraneousEntriesUnparsed = filter(entries, (e) => endpointForExtraneous(e.endpoint))
+  const extraneousEntries = extraneousEntriesUnparsed.map((e) => ({
+    ...e, size: restbase.size - e.size
+  })).filter((e) => e.size > 0)
 
+  const extraneousEntriesTotal = extraneousEntries.reduce((a, e) => a + e.size, 0)
+  const othersTotal = restbase.size - extraneousEntriesTotal
+  const endpointForOthers = (e) => e.indexOf('loot-others-') !== -1
+  const othersEntriesUnparsed = filter(entries, (e) => endpointForOthers(e.endpoint))
+  const othersEntries = othersEntriesUnparsed.map((e) => ({
+    ...e, size: othersTotal - e.size
+  })).filter((e) => e.size > 0)
+
+  console.log(othersTotal)
+  console.log(othersEntriesUnparsed)
   var pies = [getPie({
-    title: <span><code>data-mw</code> attributes size</span>,
+    title: <span>Extraneous html transformations size</span>,
     total: restbase.size,
-    entries: [{...restbaseNoDataMW, size: restbase.size - restbaseNoDataMW.size}],
+    entries: extraneousEntries,
     endpointToLabel: (label, value, i) =>
-      label.replace('loot-nodatamw', 'no data-mw') +
+      label.replace('loot-extraneous-', '').replace(/^no/, '') +
       ' (' + (value / restbase.size * 100).toFixed(2) + '%)'
   }), getPie({
-    title: <span>Restbase without <code>data-mw</code> breakout</span>,
-    total: restbaseNoDataMW.size,
-    entries: noDataMWEntries,
+    title: <span>Restbase without extraneous html</span>,
+    total: othersTotal,
+    entries: othersEntries,
     endpointToLabel: (label, value, i) => (
-      label.replace('loot-nodatamw-', '').replace(/^no/, '') +
-      ' (' + (value / restbaseNoDataMW.size * 100).toFixed(2) + '%)'
+      label.replace('loot-others-', '').replace(/^no/, '') +
+      ' (' + (value / othersTotal * 100).toFixed(2) + '%)'
     )
   })]
 

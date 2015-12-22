@@ -1,6 +1,6 @@
 .ct-label {
-  fill: rgba(0,0,0,.6);
-  color: rgba(0,0,0,.6);
+  fill: rgba(0,0,0,1);
+  color: rgba(0,0,0,1);
   font-size: .75rem;
   line-height: 1;
 }

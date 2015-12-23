@@ -22,7 +22,8 @@ Transformations made by loot, only the ones specified after loot-. Example:
 without references.
     ` },
   { term: 'extraneous-markup', value: `
-Transformation made by loot. Removes typeof, rel="mw:WikiLink" and about
-attributes, parsoid-generated IDs, and transforms empty spans (and with only spaces).
+Transformation made by loot. Removes <code>typeof</code>,
+<code>rel="mw:WikiLink"</code> and <code>about</code> attributes,
+parsoid-generated IDs, and transforms <code>mw:Entity</code>s.
     ` }
 ]

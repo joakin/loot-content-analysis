@@ -8,6 +8,7 @@ import PageReport from './page-report'
 import Chart from './chart'
 import Legend from './legend'
 import endpointforBarChart from './endpoint-for-barchart'
+import glossary from './glossary'
 
 import './index.css'
 
@@ -51,13 +52,7 @@ function init (stats) {
         of the reading team in Q3 2015/2016</a></p>
       <h3>Glossary</h3>
       <ul>
-      {([
-        { term: 'loot', value: 'Transformations by the reading-web-research prototype api server. Based of RestBase parsoid api, it applies the "no navboxes", "no amboxes", "no references", "no html comments" and "no data-mw attributes".' },
-        { term: 'restbase', value: '<a href="https://en.wikipedia.org/api/rest_v1/page/html/Wikipedia">Parsoid endpoint exposed via restbase</a>' },
-        { term: 'wikipedia', value: 'MediaWiki api using action=parse. Returns only the html.' },
-        { term: 'mobileview', value: 'MediaWiki api using action=mobileview. Returns only the html.' },
-        { term: 'loot-*', value: 'Transformations made by loot, only the ones specified after loot-. Example: loot-nodatamw is restbase page without data-mw attributes. loot-nodatamw-noreferences is restbase page without data-mw attributes and without references.' }
-      ]).map((e) => <li><strong>{e.term}</strong>: <span dangerouslySetInnerHTML={{__html: e.value}} /></li>)}
+        {glossary.map((e) => <li><strong>{e.term}</strong>: <span dangerouslySetInnerHTML={{__html: e.value}} /></li>)}
       </ul>
       <h2>All pages & endpoints</h2>
       <Legend reverse={barChartOptions.reverseData} labels={filter(keys(byEndpoint), endpointforBarChart)}/>

@@ -16,7 +16,7 @@ const endpoints = {
   // 'loot-lead': (title) => `wiki/${title}`,
   'loot': (title) => `api/benchmarks/loot/${title}`,
   'loot-extraneous-nodata-mw': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw`,
-  'loot-extraneous-noextra': (title) => `api/benchmarks/loot/${title}?transforms=noextra`,
+  'loot-extraneous-noextraneous-markup': (title) => `api/benchmarks/loot/${title}?transforms=noextra`,
   'loot-others-noreferences': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noextra|noreferences`,
   'loot-others-nonavbox': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noextra|nonavbox`,
   'loot-others-noambox': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noextra|noambox`,

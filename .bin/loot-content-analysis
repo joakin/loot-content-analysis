@@ -34,8 +34,16 @@ function init () {
         console.log('Fetching pages:')
         console.log(`  ${config.pages.join(', ')}\n`)
         return fetchPages(config, dir)
-          .then((pages) => fetchStats([].concat.apply([], pages)))
-          .then((stats) => writeStats(stats, dir))
+          .then((pages) => {
+            return Promise.all([
+              processPages(pages, 'path', 'stats.json'),
+              processPages(pages, 'gzip', 'stats-gzip.json')
+            ])
+          })
+        function processPages (pages, prop, filename) {
+          return fetchStats([].concat.apply([], pages), prop)
+            .then((stats) => writeStats(stats, dir, filename))
+        }
       })
       .catch((err) => { console.log(`[Error] ${err.message}`); process.exit(1) })
   } else if (argv.h || argv.v || argv._.length === 0) {

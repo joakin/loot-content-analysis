@@ -96,7 +96,7 @@ function getPie (args) {
     ...args
   }
   const sizes = entries.map((e) => e.size)
-  const series = sizes.concat(total - sizes.reduce((a, b) => a + b))
+  const series = sizes.concat(total - sizes.reduce((a, b) => a + b, 0))
   return {
     title,
     entries,

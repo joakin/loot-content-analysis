@@ -47,14 +47,14 @@ export default ({title, entries}) => {
   console.log(othersTotal)
   console.log(othersEntriesUnparsed)
   var pies = [getPie({
-    title: <span>Extraneous html transformations size</span>,
+    title: 'Extraneous html transformations size',
     total: restbase.size,
     entries: extraneousEntries,
     endpointToLabel: (label, value, i) =>
       label.replace('loot-extraneous-', '').replace(/^no/, '') +
       ' (' + (value / restbase.size * 100).toFixed(2) + '%)'
   }), getPie({
-    title: <span>Restbase without extraneous html</span>,
+    title: 'Restbase without extraneous html',
     total: othersTotal,
     entries: othersEntries,
     endpointToLabel: (label, value, i) => (
@@ -74,7 +74,7 @@ export default ({title, entries}) => {
         <h3>Restbase analysis</h3>
         <div className='PageReport-pies'>
           {pies.map((pie) =>
-            <div className='PageReport-pie'>
+            <div key={pie.title} className='PageReport-pie'>
               <h4>{pie.title}</h4>
               <Chart data={pie.data} options={pie.options} type={'Pie'} />
               <Legend labels={pie.data.labels.map((l, i) => pie.options.labelInterpolationFnc(l, i))}/>

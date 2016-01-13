@@ -123,7 +123,7 @@
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/restbase.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/restbase.html.gz",
     "endpoint": "restbase",
-    "size": 165270
+    "size": 165343
   },
   {
     "title": "Barack Obama",
@@ -375,7 +375,7 @@
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/restbase.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/restbase.html.gz",
     "endpoint": "restbase",
-    "size": 26660
+    "size": 358251
   },
   {
     "title": "Oakland, California",

@@ -4,566 +4,566 @@
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot.html.gz",
     "endpoint": "loot",
-    "size": 53720
+    "size": 16134
   },
   {
     "title": "Nike, Inc.",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot-extraneous-nodata-mw.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot-extraneous-nodata-mw.html.gz",
     "endpoint": "loot-extraneous-nodata-mw",
-    "size": 202795
+    "size": 41769
   },
   {
     "title": "Nike, Inc.",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot-extraneous-noextraneous-markup.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot-extraneous-noextraneous-markup.html.gz",
     "endpoint": "loot-extraneous-noextraneous-markup",
-    "size": 213637
+    "size": 41240
   },
   {
     "title": "Nike, Inc.",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot-others-noreferences.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot-others-noreferences.html.gz",
     "endpoint": "loot-others-noreferences",
-    "size": 73219
+    "size": 19703
   },
   {
     "title": "Nike, Inc.",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot-others-nonavbox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot-others-nonavbox.html.gz",
     "endpoint": "loot-others-nonavbox",
-    "size": 145496
+    "size": 31890
   },
   {
     "title": "Nike, Inc.",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot-others-noambox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./loot-others-noambox.html.gz",
     "endpoint": "loot-others-noambox",
-    "size": 166701
+    "size": 35749
   },
   {
     "title": "Nike, Inc.",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./mobileview.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./mobileview.html.gz",
     "endpoint": "mobileview",
-    "size": 163984
+    "size": 34923
   },
   {
     "title": "Nike, Inc.",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./wikipedia.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./wikipedia.html.gz",
     "endpoint": "wikipedia",
-    "size": 170907
+    "size": 36182
   },
   {
     "title": "Nike, Inc.",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./restbase.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Nike, Inc./restbase.html.gz",
     "endpoint": "restbase",
-    "size": 249731
+    "size": 47359
   },
   {
     "title": "Star Wars: The Force Awakens",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot.html.gz",
     "endpoint": "loot",
-    "size": 128710
+    "size": 37003
   },
   {
     "title": "Star Wars: The Force Awakens",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot-extraneous-nodata-mw.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot-extraneous-nodata-mw.html.gz",
     "endpoint": "loot-extraneous-nodata-mw",
-    "size": 818376
+    "size": 136881
   },
   {
     "title": "Star Wars: The Force Awakens",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot-extraneous-noextraneous-markup.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot-extraneous-noextraneous-markup.html.gz",
     "endpoint": "loot-extraneous-noextraneous-markup",
-    "size": 978370
+    "size": 138426
   },
   {
     "title": "Star Wars: The Force Awakens",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot-others-noreferences.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot-others-noreferences.html.gz",
     "endpoint": "loot-others-noreferences",
-    "size": 191722
+    "size": 45715
   },
   {
     "title": "Star Wars: The Force Awakens",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot-others-nonavbox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot-others-nonavbox.html.gz",
     "endpoint": "loot-others-nonavbox",
-    "size": 614205
+    "size": 103751
   },
   {
     "title": "Star Wars: The Force Awakens",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot-others-noambox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/loot-others-noambox.html.gz",
     "endpoint": "loot-others-noambox",
-    "size": 677592
+    "size": 112171
   },
   {
     "title": "Star Wars: The Force Awakens",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/mobileview.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/mobileview.html.gz",
     "endpoint": "mobileview",
-    "size": 648557
+    "size": 108216
   },
   {
     "title": "Star Wars: The Force Awakens",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/wikipedia.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/wikipedia.html.gz",
     "endpoint": "wikipedia",
-    "size": 655485
+    "size": 109329
   },
   {
     "title": "Star Wars: The Force Awakens",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/restbase.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Star Wars The Force Awakens/restbase.html.gz",
     "endpoint": "restbase",
-    "size": 1126335
+    "size": 165270
   },
   {
     "title": "Barack Obama",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot.html.gz",
     "endpoint": "loot",
-    "size": 189078
+    "size": 50159
   },
   {
     "title": "Barack Obama",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot-extraneous-nodata-mw.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot-extraneous-nodata-mw.html.gz",
     "endpoint": "loot-extraneous-nodata-mw",
-    "size": 1250523
+    "size": 217826
   },
   {
     "title": "Barack Obama",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot-extraneous-noextraneous-markup.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot-extraneous-noextraneous-markup.html.gz",
     "endpoint": "loot-extraneous-noextraneous-markup",
-    "size": 1441078
+    "size": 240033
   },
   {
     "title": "Barack Obama",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot-others-noreferences.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot-others-noreferences.html.gz",
     "endpoint": "loot-others-noreferences",
-    "size": 418225
+    "size": 84210
   },
   {
     "title": "Barack Obama",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot-others-nonavbox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot-others-nonavbox.html.gz",
     "endpoint": "loot-others-nonavbox",
-    "size": 818688
+    "size": 150960
   },
   {
     "title": "Barack Obama",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot-others-noambox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/loot-others-noambox.html.gz",
     "endpoint": "loot-others-noambox",
-    "size": 1052285
+    "size": 184833
   },
   {
     "title": "Barack Obama",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/mobileview.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/mobileview.html.gz",
     "endpoint": "mobileview",
-    "size": 1046591
+    "size": 183765
   },
   {
     "title": "Barack Obama",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/wikipedia.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/wikipedia.html.gz",
     "endpoint": "wikipedia",
-    "size": 1057438
+    "size": 185527
   },
   {
     "title": "Barack Obama",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/restbase.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Barack Obama/restbase.html.gz",
     "endpoint": "restbase",
-    "size": 1639441
+    "size": 273244
   },
   {
     "title": "Doctor Who",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot.html.gz",
     "endpoint": "loot",
-    "size": 182549
+    "size": 48937
   },
   {
     "title": "Doctor Who",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot-extraneous-nodata-mw.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot-extraneous-nodata-mw.html.gz",
     "endpoint": "loot-extraneous-nodata-mw",
-    "size": 566351
+    "size": 111191
   },
   {
     "title": "Doctor Who",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot-extraneous-noextraneous-markup.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot-extraneous-noextraneous-markup.html.gz",
     "endpoint": "loot-extraneous-noextraneous-markup",
-    "size": 588830
+    "size": 106721
   },
   {
     "title": "Doctor Who",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot-others-noreferences.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot-others-noreferences.html.gz",
     "endpoint": "loot-others-noreferences",
-    "size": 242341
+    "size": 58344
   },
   {
     "title": "Doctor Who",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot-others-nonavbox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot-others-nonavbox.html.gz",
     "endpoint": "loot-others-nonavbox",
-    "size": 400823
+    "size": 83835
   },
   {
     "title": "Doctor Who",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot-others-noambox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/loot-others-noambox.html.gz",
     "endpoint": "loot-others-noambox",
-    "size": 464765
+    "size": 93457
   },
   {
     "title": "Doctor Who",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/mobileview.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/mobileview.html.gz",
     "endpoint": "mobileview",
-    "size": 458257
+    "size": 92276
   },
   {
     "title": "Doctor Who",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/wikipedia.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/wikipedia.html.gz",
     "endpoint": "wikipedia",
-    "size": 469516
+    "size": 94038
   },
   {
     "title": "Doctor Who",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/restbase.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Doctor Who/restbase.html.gz",
     "endpoint": "restbase",
-    "size": 692413
+    "size": 124766
   },
   {
     "title": "Geastrum quadrifidum",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot.html.gz",
     "endpoint": "loot",
-    "size": 40703
+    "size": 10942
   },
   {
     "title": "Geastrum quadrifidum",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot-extraneous-nodata-mw.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot-extraneous-nodata-mw.html.gz",
     "endpoint": "loot-extraneous-nodata-mw",
-    "size": 112758
+    "size": 23758
   },
   {
     "title": "Geastrum quadrifidum",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot-extraneous-noextraneous-markup.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot-extraneous-noextraneous-markup.html.gz",
     "endpoint": "loot-extraneous-noextraneous-markup",
-    "size": 147725
+    "size": 27213
   },
   {
     "title": "Geastrum quadrifidum",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot-others-noreferences.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot-others-noreferences.html.gz",
     "endpoint": "loot-others-noreferences",
-    "size": 38897
+    "size": 10804
   },
   {
     "title": "Geastrum quadrifidum",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot-others-nonavbox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot-others-nonavbox.html.gz",
     "endpoint": "loot-others-nonavbox",
-    "size": 91660
+    "size": 20172
   },
   {
     "title": "Geastrum quadrifidum",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot-others-noambox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/loot-others-noambox.html.gz",
     "endpoint": "loot-others-noambox",
-    "size": 91660
+    "size": 20172
   },
   {
     "title": "Geastrum quadrifidum",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/mobileview.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/mobileview.html.gz",
     "endpoint": "mobileview",
-    "size": 84965
+    "size": 19173
   },
   {
     "title": "Geastrum quadrifidum",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/wikipedia.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/wikipedia.html.gz",
     "endpoint": "wikipedia",
-    "size": 88323
+    "size": 20040
   },
   {
     "title": "Geastrum quadrifidum",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/restbase.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Geastrum quadrifidum/restbase.html.gz",
     "endpoint": "restbase",
-    "size": 168823
+    "size": 30844
   },
   {
     "title": "Syrian Civil War",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot.html.gz",
     "endpoint": "loot",
-    "size": 377010
+    "size": 85734
   },
   {
     "title": "Syrian Civil War",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot-extraneous-nodata-mw.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot-extraneous-nodata-mw.html.gz",
     "endpoint": "loot-extraneous-nodata-mw",
-    "size": 1854818
+    "size": 319968
   },
   {
     "title": "Syrian Civil War",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot-extraneous-noextraneous-markup.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot-extraneous-noextraneous-markup.html.gz",
     "endpoint": "loot-extraneous-noextraneous-markup",
-    "size": 1999676
+    "size": 309113
   },
   {
     "title": "Syrian Civil War",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot-others-noreferences.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot-others-noreferences.html.gz",
     "endpoint": "loot-others-noreferences",
-    "size": 574545
+    "size": 118035
   },
   {
     "title": "Syrian Civil War",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot-others-nonavbox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot-others-nonavbox.html.gz",
     "endpoint": "loot-others-nonavbox",
-    "size": 1343510
+    "size": 238253
   },
   {
     "title": "Syrian Civil War",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot-others-noambox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/loot-others-noambox.html.gz",
     "endpoint": "loot-others-noambox",
-    "size": 1551200
+    "size": 270125
   },
   {
     "title": "Syrian Civil War",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/mobileview.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/mobileview.html.gz",
     "endpoint": "mobileview",
-    "size": 1499838
+    "size": 265758
   },
   {
     "title": "Syrian Civil War",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/wikipedia.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/wikipedia.html.gz",
     "endpoint": "wikipedia",
-    "size": 1518862
+    "size": 268553
   },
   {
     "title": "Syrian Civil War",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/restbase.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Syrian Civil War/restbase.html.gz",
     "endpoint": "restbase",
-    "size": 2299266
+    "size": 26660
   },
   {
     "title": "Oakland, California",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot.html.gz",
     "endpoint": "loot",
-    "size": 185928
+    "size": 45382
   },
   {
     "title": "Oakland, California",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot-extraneous-nodata-mw.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot-extraneous-nodata-mw.html.gz",
     "endpoint": "loot-extraneous-nodata-mw",
-    "size": 569391
+    "size": 105213
   },
   {
     "title": "Oakland, California",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot-extraneous-noextraneous-markup.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot-extraneous-noextraneous-markup.html.gz",
     "endpoint": "loot-extraneous-noextraneous-markup",
-    "size": 580929
+    "size": 103613
   },
   {
     "title": "Oakland, California",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot-others-noreferences.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot-others-noreferences.html.gz",
     "endpoint": "loot-others-noreferences",
-    "size": 294260
+    "size": 61544
   },
   {
     "title": "Oakland, California",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot-others-nonavbox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot-others-nonavbox.html.gz",
     "endpoint": "loot-others-nonavbox",
-    "size": 359732
+    "size": 74396
   },
   {
     "title": "Oakland, California",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot-others-noambox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/loot-others-noambox.html.gz",
     "endpoint": "loot-others-noambox",
-    "size": 476126
+    "size": 91365
   },
   {
     "title": "Oakland, California",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/mobileview.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/mobileview.html.gz",
     "endpoint": "mobileview",
-    "size": 478766
+    "size": 90876
   },
   {
     "title": "Oakland, California",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/wikipedia.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/wikipedia.html.gz",
     "endpoint": "wikipedia",
-    "size": 490926
+    "size": 92611
   },
   {
     "title": "Oakland, California",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/restbase.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Oakland, California/restbase.html.gz",
     "endpoint": "restbase",
-    "size": 674194
+    "size": 117853
   },
   {
     "title": "Campus Honeymoon",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot.html.gz",
     "endpoint": "loot",
-    "size": 11044
+    "size": 3258
   },
   {
     "title": "Campus Honeymoon",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot-extraneous-nodata-mw.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot-extraneous-nodata-mw.html.gz",
     "endpoint": "loot-extraneous-nodata-mw",
-    "size": 16557
+    "size": 4527
   },
   {
     "title": "Campus Honeymoon",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot-extraneous-noextraneous-markup.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot-extraneous-noextraneous-markup.html.gz",
     "endpoint": "loot-extraneous-noextraneous-markup",
-    "size": 16948
+    "size": 4608
   },
   {
     "title": "Campus Honeymoon",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot-others-noreferences.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot-others-noreferences.html.gz",
     "endpoint": "loot-others-noreferences",
-    "size": 10986
+    "size": 3295
   },
   {
     "title": "Campus Honeymoon",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot-others-nonavbox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot-others-nonavbox.html.gz",
     "endpoint": "loot-others-nonavbox",
-    "size": 14150
+    "size": 4035
   },
   {
     "title": "Campus Honeymoon",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot-others-noambox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/loot-others-noambox.html.gz",
     "endpoint": "loot-others-noambox",
-    "size": 14150
+    "size": 4035
   },
   {
     "title": "Campus Honeymoon",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/mobileview.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/mobileview.html.gz",
     "endpoint": "mobileview",
-    "size": 12880
+    "size": 3369
   },
   {
     "title": "Campus Honeymoon",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/wikipedia.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/wikipedia.html.gz",
     "endpoint": "wikipedia",
-    "size": 14717
+    "size": 4094
   },
   {
     "title": "Campus Honeymoon",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/restbase.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Campus Honeymoon/restbase.html.gz",
     "endpoint": "restbase",
-    "size": 19355
+    "size": 5108
   },
   {
     "title": "Brazil",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot.html.gz",
     "endpoint": "loot",
-    "size": 268779
+    "size": 65724
   },
   {
     "title": "Brazil",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot-extraneous-nodata-mw.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot-extraneous-nodata-mw.html.gz",
     "endpoint": "loot-extraneous-nodata-mw",
-    "size": 1041211
+    "size": 182810
   },
   {
     "title": "Brazil",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot-extraneous-noextraneous-markup.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot-extraneous-noextraneous-markup.html.gz",
     "endpoint": "loot-extraneous-noextraneous-markup",
-    "size": 1057149
+    "size": 179228
   },
   {
     "title": "Brazil",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot-others-noreferences.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot-others-noreferences.html.gz",
     "endpoint": "loot-others-noreferences",
-    "size": 421763
+    "size": 84748
   },
   {
     "title": "Brazil",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot-others-nonavbox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot-others-nonavbox.html.gz",
     "endpoint": "loot-others-nonavbox",
-    "size": 693241
+    "size": 135517
   },
   {
     "title": "Brazil",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot-others-noambox.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/loot-others-noambox.html.gz",
     "endpoint": "loot-others-noambox",
-    "size": 857368
+    "size": 155577
   },
   {
     "title": "Brazil",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/mobileview.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/mobileview.html.gz",
     "endpoint": "mobileview",
-    "size": 825324
+    "size": 152827
   },
   {
     "title": "Brazil",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/wikipedia.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/wikipedia.html.gz",
     "endpoint": "wikipedia",
-    "size": 835900
+    "size": 154393
   },
   {
     "title": "Brazil",
     "path": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/restbase.html",
     "gzip": "/Users/jhernandez/dev/loot-content-analysis/examples/output/Brazil/restbase.html.gz",
     "endpoint": "restbase",
-    "size": 1240992
+    "size": 206692
   }
 ]

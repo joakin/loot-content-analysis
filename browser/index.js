@@ -56,9 +56,11 @@ function init (stats) {
   render(
     <div className='Report'>
       <h1>Pages size report</h1>
-      <select onChange={(e) => getStats(e.target.value)}>
-        {files.map((f) => <option key={f.name} value={f.value}>{f.name}</option>)}
-      </select>
+      <div className='Report-switcher'>
+        <select onChange={(e) => getStats(e.target.value)}>
+          {files.map((f) => <option key={f.name} value={f.value}>{f.name}</option>)}
+        </select>
+      </div>
       <p>This report analyzes the size of <a href='https://phabricator.wikimedia.org/T120504'>different pages</a> when
         fetched from different endpoints as part of the <a href='https://www.mediawiki.org/wiki/Reading/Web/Projects/A_frontend_powered_by_Parsoid/HTML_content_research'>analysis
         of the reading team in Q3 2015/2016</a></p>

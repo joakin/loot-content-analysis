@@ -21,5 +21,9 @@ h2 {
   padding: 0 1em 3em 1em;
 }
 
+.Report-switcher {
+  text-align: center;
+}
+
 .Data { text-align: center; }
 .Data .Data-entry { display: inline-block; text-align: left; }

@@ -21,6 +21,9 @@ const endpoints = {
   'loot-others-nonavbox': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noextra|nonavbox`,
   'loot-others-noambox': (title) => `api/benchmarks/loot/${title}?transforms=nodatamw|noextra|noambox`,
   'mobileview': (title) => `api/benchmarks/mobileview/${title}`,
+  'wikipedia-transform-noreferences': (title) => `api/benchmarks/wikipedia/${title}?transforms=noreferences`,
+  'wikipedia-transform-nonavbox': (title) => `api/benchmarks/wikipedia/${title}?transforms=nonavbox`,
+  'wikipedia-transform-noambox': (title) => `api/benchmarks/wikipedia/${title}?transforms=noambox`,
   'wikipedia': (title) => `api/benchmarks/wikipedia/${title}`,
   'restbase': (title) => `api/benchmarks/restbase/${title}`
 }

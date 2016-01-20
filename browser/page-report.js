@@ -44,21 +44,34 @@ export default ({title, entries}) => {
     ...e, size: othersTotal - e.size
   })).filter((e) => e.size > 0)
 
-  console.log(othersTotal)
-  console.log(othersEntriesUnparsed)
+  const wikipedia = find(entries, 'endpoint', 'wikipedia')
+  const endpointForMediawiki = (e) => e.indexOf('wikipedia-transform-') !== -1
+  const mediawikiEntriesUnparsed = filter(entries, (e) => endpointForMediawiki(e.endpoint))
+  const mediawikiEntries = mediawikiEntriesUnparsed.map((e) => ({
+    ...e, size: wikipedia.size - e.size
+  })).filter((e) => e.size > 0)
+
   var pies = [getPie({
-    title: 'Extraneous html transformations size',
+    title: 'Restbase: Extraneous html',
     total: restbase.size,
     entries: extraneousEntries,
     endpointToLabel: (label, value, i) =>
       label.replace('loot-extraneous-', '').replace(/^no/, '') +
       ' (' + (value / restbase.size * 100).toFixed(2) + '%)'
   }), getPie({
-    title: 'Restbase without extraneous html',
+    title: 'Restbase: Without extraneous html',
     total: othersTotal,
     entries: othersEntries,
     endpointToLabel: (label, value, i) => (
       label.replace('loot-others-', '').replace(/^no/, '') +
+      ' (' + (value / othersTotal * 100).toFixed(2) + '%)'
+    )
+  }), getPie({
+    title: 'MediaWiki parser',
+    total: wikipedia.size,
+    entries: mediawikiEntries,
+    endpointToLabel: (label, value, i) => (
+      label.replace('wikipedia-transform-', '').replace(/^no/, '') +
       ' (' + (value / othersTotal * 100).toFixed(2) + '%)'
     )
   })]

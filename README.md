@@ -1,6 +1,9 @@
 # loot-content-analysis
 
-A cli tool for analyzing [loot](https://github.com/joakin/loot) content.
+A cli tool for analyzing [loot](https://github.com/joakin/loot) content and
+a browser webapp for visualizing the reports.
+
+[Live report version](http://chimeces.com/loot-content-analysis/)
 
 ## Deps
 
